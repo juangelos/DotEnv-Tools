@@ -12,6 +12,16 @@ Find-Module DotEnv-Tools
 Install-Module DotEnv-Tools -Scope CurrentUser
 ```
 
+## Uninstallation
+
+```powershell
+# Uninstall the module
+Uninstall-Module DotEnv-Tools -Force
+
+# Verify it's removed
+Get-Module DotEnv-Tools -ListAvailable
+```
+
 ## Usage
 
 ### Interactive Shell
